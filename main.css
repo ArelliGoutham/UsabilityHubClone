@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.heading{
+    color: #183B56;
+    letter-spacing: -0.5px;
+}
+
+.header-navbar {
+    padding: 25px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo .logo {
+    background-image: url("./logos/usability_hub_logo.png");
+    height: 30px;
+    width: 11rem;
+    background-size: cover;
+} 
+
+.become-a-tester-bg {
+    background-image: url('./logos/become_a_tester.svg');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 10rem;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.become-a-tester-text {
+    color: #183b56;
+}
+
+.header-nav-links {
+    color: #183B56;
+}
+
+.header-nav-links a {
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+.header-nav-links a:hover {
+    color: #2294ED;
+}
+
+.button {
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .15s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.button-blue {
+    color: white;
+    background-color: #2294ED;
+}
+
+.button-blue:hover {
+    background-color: #267aba;
+}
+
+.button-white {
+    background-color: #FFFFFF;
+    border: 1px solid #2294ED;
+}
+
+.button-white:hover {
+    color: #2294ED;
+}
+
+.sign-in-button {
+    margin-left: 10px;
+    padding: 12px 24px;
+}
+
+.sign-up-button {
+    margin-left: 10px;
+    padding: 12px 24px;
+}
+
+/* Hero Section */
+
+.page-section {
+    padding: 0 20px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.get-started-container {
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-started-info {
+    width: 40%;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.get-started-info h1 {
+    margin-bottom: 16px;
+}
+.info-text {
+    font-size: 20px;
+    color: #577592;
+}
+
+.info-text.spacebelow {
+    margin-bottom: 32px;
+}
+
+.get-started-button{
+    font-size: 1rem;
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+.get-started-image {
+    background-image: url('./logos/section_one.jpeg');
+    width: 586px;
+    height: 430px;
+    background-size: cover;
+}
+
+.companies-container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.companies-container h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.company-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0px;
+    align-items: center;
+}
+
+img.logo{
+    max-height: 46px;
+}
+
+img.logo.godaddy {
+    max-height: 36px;
+}
