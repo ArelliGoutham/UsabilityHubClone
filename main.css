@@ -8,6 +8,8 @@
 .heading{
     color: #183B56;
     letter-spacing: -0.5px;
+    line-height: 1.2;
+    display: block;
 }
 
 .header-navbar {
@@ -116,6 +118,7 @@
 
 .get-started-info h1 {
     margin-bottom: 16px;
+    color: #183b56;
 }
 .info-text {
     font-size: 20px;
@@ -165,4 +168,75 @@ img.logo{
 
 img.logo.godaddy {
     max-height: 36px;
+}
+
+/* Features section */
+
+.features-container {
+    background-image: url('./logos/Oval_1.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 700px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.features-header .heading {
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.feature-button {
+    border: 1px solid #2294ED;
+    padding: 12px 24px;
+    margin-top: 20px;
+}
+
+.feature-button:hover {
+    color: #2294ED;
+}
+
+.features-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-card {
+    max-width: 30%;
+    min-width: 30%;
+    text-align: center;
+    order: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    line-height: 1.5;
+}
+
+.feature-logo{
+    width: 40px;
+    height: 40px;
+}
+
+.feature-card h4 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.feature-info {
+    margin: 10px 0;
+    font-size: 20px;
 }
